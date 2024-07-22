@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="hh">registration form</h1>
+        <form action="" method="POST" onsubmit="return fav()">
+            <table>
+                <tr>
+                    <th class="lbl">Name :-</th>
+                    <th><input type="text" name="name" id="name" class="ibox"></th>
+                    <th><span class="error" id="nerror"></span></th>
+                </tr>
+                <tr>
+                    <th class="lbl">Email :-</th>
+                    <th><input type="email" name="email" id="email" class="ibox"></th>
+                    <th><span class="error" id="eerror"></span></th>
+                </tr>
+                <tr>
+                    <th class="lbl">Phone :-</th>
+                    <th><input type="tel" name="phone" id="phone" class="ibox"></th>
+                    <th><span class="error" id="pherror"></span></th>
+                </tr>
+                <tr>
+                    <th class="lbl">Password :-</th>
+                    <th><input type="password" name="password" id="password" class="ibox"></th>
+                    <th><span class="error" id="perror"></span></th>
+                </tr>
+            </table>
+            <input type="submit" value="submit" id="sub1" class="sub" name="submit">
+            <input type="reset" value="reset" class="sub" id="sub2" name="reset">
+        </form>
+    </div>
+
+
+    <script src="action.js"></script>
+</body>
+</html>
